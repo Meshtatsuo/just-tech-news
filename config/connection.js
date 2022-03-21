@@ -1,7 +1,7 @@
 // import sequelize
 const Sequelize = require("sequelize");
 // require dotenv to pull environment variables
-require("dotenv").confiig();
+require("dotenv").config();
 
 //create connectioni to database
 const sequelize = new Sequelize(
