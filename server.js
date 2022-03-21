@@ -13,7 +13,7 @@ app.use(express.urlencoded({
 // turn on routes
 app.use(routes);
 
-// turn on connection to db and server
+// turn on connection to database and server
 sequelize.sync({
   force: true
 }).then(() => {
